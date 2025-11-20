@@ -15,13 +15,20 @@ Traffic Salient Object Detection (TSOD) aims to segment the objects critical to 
 
 ## OverView
 
-* TSOD Dataset：
-![Examples](https://github.com/mj129/Tramba/blob/main/utils/figure/TSOD_examples.jpg)
-![Examples](https://github.com/mj129/Tramba/blob/main/utils/figure/TSOD_statistics.jpg)
-![Examples](https://github.com/mj129/Tramba/blob/main/utils/figure/TSOD_crisis_analysis.jpg) 
-
-* Tramba:
-![framework](https://github.com/mj129/Tramba/blob/main/utils/figure/MainFigure.jpg) 
+* **TSOD Dataset**
+<p align="center">
+  <img src="https://github.com/mj129/Tramba/blob/main/utils/figure/TSOD_examples.jpg" alt="architecture" width="90%">
+</p>
+<p align="center">
+  <img src="https://github.com/mj129/Tramba/blob/main/utils/figure/TSOD_statistics.jpg" alt="architecture" width="90%">
+</p>
+<p align="center">
+  <img src="https://github.com/mj129/Tramba/blob/main/utils/figure/TSOD_crisis_analysis.jpg" alt="architecture" width="90%">
+</p>
+* **Tramba**
+<p align="center">
+  <img src="https://github.com/mj129/Tramba/blob/main/utils/figure/MainFigure.jpg" alt="architecture" width="90%">
+</p>
 
 ## Get Start
 
