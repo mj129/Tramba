@@ -10,9 +10,18 @@
 This repository contains the proposed TSOD10K dataset, official code, prediction results. The technical report could be found at [**[TIP]**](https://ieeexplore.ieee.org/document/11226901) & [**[arXiv]**](https://arxiv.org/abs/2503.16910).
 
 ## Introduction
-![framework](https://github.com/mj129/Tramba/blob/main/MainFigure.pdf) 
 
 Traffic Salient Object Detection (TSOD) aims to segment the objects critical to driving safety by combining semantic (e.g., collision risks) and visual saliency. Unlike SOD in natural scene images (NSI-SOD), which prioritizes visually distinctive regions, TSOD emphasizes the objects that demand immediate driver attention due to their semantic impact, even with low visual contrast. This dual criterion, i.e., bridging perception and contextual risk, re-defines saliency for autonomous and assisted driving systems. To address the lack of task-specific benchmarks, we collect the first large-scale TSOD dataset with pixel-wise saliency annotations, named TSOD10K. TSOD10K covers the diverse object categories in various real-world traffic scenes under various challenging weather/illumination variations (e.g., fog, snowstorms, low-contrast, and low-light). Methodologically, we propose a Mamba-based TSOD model, termed Tramba. Considering the challenge of distinguishing inconspicuous visual information from complex traffic backgrounds, Tramba introduces a novel Dual-Frequency Visual State Space module equipped with shifted window partitioning and dilated scanning to enhance the perception of fine details and global structure by hierarchically decomposing high/low-frequency components. To emphasize critical regions in traffic scenes, we propose a traffic-oriented Helix 2D-Selective-Scan (Helix-SS2D) mechanism that injects driving attention priors while effectively capturing global multi-direction spatial dependencies. We establish a comprehensive benchmark by evaluating Tramba and 25 existing NSI-SOD models on TSOD10K, demonstrating Tramba’s superiority. Our research establishes the first foundation for safety-aware saliency analysis in intelligent transportation systems.
+
+## OverView
+
+* TSOD Dataset：
+![Examples](https://github.com/mj129/Tramba/blob/main/utils/figure/TSOD_examples.jpg)
+![Examples](https://github.com/mj129/Tramba/blob/main/utils/figure/TSOD_statistics.jpg)
+![Examples](https://github.com/mj129/Tramba/blob/main/utils/figure/TSOD_crisis_analysis.jpg) 
+
+* Tramba:
+![framework](https://github.com/mj129/Tramba/blob/main/utils/figure/MainFigure.jpg) 
 
 ## Get Start
 
