@@ -42,8 +42,7 @@ You could refer to [here](https://github.com/MzeroMiko/VMamba?tab=readme-ov-file
 * **Datasets:** 
 You can obtain the TSOD10K dataset from [Google Drive](https://drive.google.com/file/d/1RsXOMO37PHLLTtmyOP3af7ODP1yv7qWw/view).
 
-* **Pretrained Weight for VSSM/Swin/PVT/ResNet** 
-
+* **Pretrained Weight:** 
 [-V: VMamba-B](https://drive.google.com/file/d/1Aew9Arfv8OPCxTdaJcHTnpwSkYVkqe3Y/view) | [-Swin: Swin-B](https://drive.google.com/file/d/1AwMASp-YJDyoCijL25s0hYcHh8Q2cLxv/view) | [-Pvt: PvtV2](https://drive.google.com/file/d/1x7Ca6uZI0Q7nM76Yn5oIf1BEbXDnC6hq/view) | [-Res: ResNet50](https://drive.google.com/file/d/1SUI6kbyekiMCO0cIIJowPHpYh34t5Rmj/view)
 
 **2. Train Tramba.**
