@@ -35,7 +35,7 @@ Traffic Salient Object Detection (TSOD) aims to segment the objects critical to 
 
 **0. Install**
 
-You could refer to [here](https://github.com/mczhuge/ICON/tree/main/util).
+You could refer to [here](https://github.com/MzeroMiko/VMamba?tab=readme-ov-file#installation).
 
 **1. Download Datasets and Checkpoints.**
 
